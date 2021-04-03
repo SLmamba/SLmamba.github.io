@@ -1,0 +1,57 @@
+<html>
+<head>
+<style>
+body{
+background:url("fon.jpg");
+background-repeat:no-repeat;
+background-size:100%;
+}
+.kt{
+background:url("kt.png");
+background-repeat:no-repeat;
+background-size:100%;
+width:300px;
+height:600px;
+margin-top:300px;
+border:2px solid red;
+float:left;
+}
+.grena{
+background:url("grena.png");
+background-repeat:no-repeat;
+background-size:100%;
+width:300px;
+height:300px;
+animation:grena 3s ease-in 1s 1 normal;
+border:2px solid red;
+margin-left:1000px;
+margin-top:500px;
+float:right;
+}
+@keyframes grena{
+0%{transform:translate(0,0); scale(0,0)}
+
+79%{transform:translate(-1500px,100px);
+background:url("grena.png");
+
+}
+80%{transform:translate(-1500px,100px) scale(4,4);
+background:url("boom.png");
+background-repeat:no-repeat;
+}
+
+100%{transform:translate(-1500px,100px) scale(8,8);
+background:url("boom.png");
+background-repeat:no-repeat;
+}
+</style>
+</head>
+<body>
+<div class="mine"></div>
+<div class="kt"></div>
+<div class="grena"></div>
+
+
+</div>
+</body>
+</html>
