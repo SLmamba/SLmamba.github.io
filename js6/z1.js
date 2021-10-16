@@ -1,13 +1,3 @@
-/*let name = `ПЕТРО`;
-let yrok = `МАТЕМАТИКА`;
-let massive = [];
-
-for(i=0; i < 5; i++){
-    massive[i] = prompt("Введіть оцінку")
-}
-console.log(`${massive}`);
-
-
 
 let name = `ПЕТРО`;
 let yrok = `МАТЕМАТИКА`;
@@ -17,11 +7,20 @@ console.log(`Вітаю ${name}! Кількість оцінок з придме
 
 
 
-let massive = [12, 13, 78, 98, 109, 65];
+/*let massive = [12, 13, 78, 98, 109, 65];
 for(i=1; i < 5; i++){
     console.log(`Привіт, я цифра ${massive[i]}`)    
 }
 
+
+let name = `ПЕТРО`;
+let yrok = `МАТЕМАТИКА`;
+let massive = [];
+
+for(i=0; i < 5; i++){
+    massive[i] = prompt("Введіть оцінку")
+}
+console.log(`${massive}`);
 
 let vikusih = [13, 14, 16, 11];
 vikusih[13]=20;
